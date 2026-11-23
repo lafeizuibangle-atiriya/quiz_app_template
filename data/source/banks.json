@@ -1,0 +1,350 @@
+{
+  "subjects": [
+    {
+      "key": "computer",
+      "name": "计算机基础",
+      "full": "计算机基础知识测试题库（示例数据）",
+      "code": "DEMO-001",
+      "total": 24,
+      "examCount": 10,
+      "examMinutes": 20,
+      "chapters": [
+        {
+          "id": "s01",
+          "name": "计算机基础",
+          "weight": "35%",
+          "focus": "计算机组成、存储单位、操作系统常识",
+          "count": 8
+        },
+        {
+          "id": "s02",
+          "name": "网络基础",
+          "weight": "35%",
+          "focus": "IP 地址、协议、网络设备与传输介质",
+          "count": 8
+        },
+        {
+          "id": "s03",
+          "name": "网络安全",
+          "weight": "30%",
+          "focus": "密码学基础、常见攻击与防护措施",
+          "count": 8
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "computer_01_001",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "judge",
+      "stem": "计算机的内存断电后数据会丢失，而硬盘中的数据可以长期保存。",
+      "answer": "正确",
+      "explain": "内存是易失性存储器，断电后内容消失；硬盘属于非易失性存储，断电后数据保留。"
+    },
+    {
+      "id": "computer_01_002",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "judge",
+      "stem": "1GB 等于 1000MB。",
+      "answer": "错误",
+      "explain": "按二进制换算，1GB = 1024MB。硬盘厂商常用十进制标称，但操作系统按二进制计算。"
+    },
+    {
+      "id": "computer_01_003",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "judge",
+      "stem": "操作系统属于应用软件。",
+      "answer": "错误",
+      "explain": "操作系统是系统软件，负责管理硬件与提供运行环境；应用软件是在其上运行的程序。"
+    },
+    {
+      "id": "computer_01_004",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "single",
+      "stem": "下列哪一项属于输出设备？",
+      "answer": "C",
+      "explain": "显示器把计算机处理结果呈现给用户，属于输出设备；其余三项都是输入设备。",
+      "options": [
+        "键盘",
+        "鼠标",
+        "显示器",
+        "扫描仪"
+      ]
+    },
+    {
+      "id": "computer_01_005",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "single",
+      "stem": "CPU 的主要功能是什么？",
+      "answer": "B",
+      "explain": "CPU 是计算机的运算与控制核心，负责取指、译码和执行；存储由内存与外存承担。",
+      "options": [
+        "长期存储数据",
+        "执行指令和运算",
+        "显示图像",
+        "连接无线网络"
+      ]
+    },
+    {
+      "id": "computer_01_006",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "single",
+      "stem": "二进制数 1011 对应的十进制数是多少？",
+      "answer": "C",
+      "explain": "1011 = 1×8 + 0×4 + 1×2 + 1×1 = 11。",
+      "options": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "id": "computer_01_007",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "multi",
+      "stem": "下列属于操作系统的有哪些？",
+      "answer": "ABC",
+      "explain": "Windows、Linux、macOS 都是操作系统；Photoshop 是图像处理应用软件。",
+      "options": [
+        "Windows",
+        "Linux",
+        "macOS",
+        "Photoshop"
+      ]
+    },
+    {
+      "id": "computer_01_008",
+      "subject": "computer",
+      "chapter": "s01",
+      "type": "multi",
+      "stem": "下列属于存储设备的有哪些？",
+      "answer": "ABC",
+      "explain": "固态硬盘、U 盘、光盘都能保存数据；显示器是输出设备。",
+      "options": [
+        "固态硬盘",
+        "U 盘",
+        "光盘",
+        "显示器"
+      ]
+    },
+    {
+      "id": "computer_02_001",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "judge",
+      "stem": "IP 地址 192.168.1.1 属于私有地址范围。",
+      "answer": "正确",
+      "explain": "192.168.0.0～192.168.255.255 是 RFC1918 规定的私有地址段，用于局域网。"
+    },
+    {
+      "id": "computer_02_002",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "judge",
+      "stem": "HTTP 协议默认使用 443 端口。",
+      "answer": "错误",
+      "explain": "HTTP 默认端口是 80，443 是 HTTPS 的默认端口。"
+    },
+    {
+      "id": "computer_02_003",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "judge",
+      "stem": "DNS 的作用是把域名解析为 IP 地址。",
+      "answer": "正确",
+      "explain": "DNS 是域名系统，把便于记忆的域名转换为计算机通信使用的 IP 地址。"
+    },
+    {
+      "id": "computer_02_004",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "single",
+      "stem": "用于测试网络连通性的常用命令是？",
+      "answer": "B",
+      "explain": "ping 发送 ICMP 回显请求测试连通性；ipconfig 用于查看网络配置。",
+      "options": [
+        "ipconfig",
+        "ping",
+        "dir",
+        "copy"
+      ]
+    },
+    {
+      "id": "computer_02_005",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "single",
+      "stem": "局域网中最常用的有线传输介质是？",
+      "answer": "A",
+      "explain": "双绞线（如超五类、六类线）成本低、安装方便，是局域网主流介质。",
+      "options": [
+        "双绞线",
+        "光纤",
+        "同轴电缆",
+        "电话线"
+      ]
+    },
+    {
+      "id": "computer_02_006",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "single",
+      "stem": "下列哪个属于无线网络技术标准？",
+      "answer": "B",
+      "explain": "Wi-Fi 基于 IEEE 802.11 标准，用于无线局域网。",
+      "options": [
+        "USB",
+        "Wi-Fi",
+        "SATA",
+        "PCIe"
+      ]
+    },
+    {
+      "id": "computer_02_007",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "multi",
+      "stem": "下列属于网络设备的有哪些？",
+      "answer": "ABC",
+      "explain": "路由器、交换机、网卡都参与数据通信；声卡负责音频处理。",
+      "options": [
+        "路由器",
+        "交换机",
+        "网卡",
+        "声卡"
+      ]
+    },
+    {
+      "id": "computer_02_008",
+      "subject": "computer",
+      "chapter": "s02",
+      "type": "multi",
+      "stem": "下列属于 TCP/IP 模型传输层协议的有哪些？",
+      "answer": "AB",
+      "explain": "传输层主要协议是 TCP 和 UDP；IP 属于网络层，HTTP 属于应用层。",
+      "options": [
+        "TCP",
+        "UDP",
+        "IP",
+        "HTTP"
+      ]
+    },
+    {
+      "id": "computer_03_001",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "judge",
+      "stem": "钓鱼邮件常伪装成可信机构，诱导用户泄露账号信息。",
+      "answer": "正确",
+      "explain": "钓鱼攻击通过仿冒发件人与页面骗取凭据，是常见的社会工程学手段。"
+    },
+    {
+      "id": "computer_03_002",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "judge",
+      "stem": "MD5 是一种对称加密算法。",
+      "answer": "错误",
+      "explain": "MD5 是哈希（摘要）算法，不可逆；对称加密的代表是 AES、DES。"
+    },
+    {
+      "id": "computer_03_003",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "single",
+      "stem": "下列哪种做法能提高账户安全性？",
+      "answer": "B",
+      "explain": "双重认证增加第二重凭据，即使密码泄露也能阻挡多数登录攻击。",
+      "options": [
+        "多个网站共用同一密码",
+        "启用双重认证",
+        "把密码写在便签上",
+        "使用生日作为密码"
+      ]
+    },
+    {
+      "id": "computer_03_004",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "single",
+      "stem": "HTTPS 相比 HTTP 主要增加了什么？",
+      "answer": "B",
+      "explain": "HTTPS 在 HTTP 之下加入 TLS/SSL，提供加密、完整性校验和服务器身份验证。",
+      "options": [
+        "传输速度",
+        "加密与身份验证",
+        "页面动画效果",
+        "缓存容量"
+      ]
+    },
+    {
+      "id": "computer_03_005",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "single",
+      "stem": "防范恶意软件的有效措施是？",
+      "answer": "C",
+      "explain": "保持防护软件与系统更新及时，可拦截已知恶意代码；其余选项都会提高风险。",
+      "options": [
+        "随意下载破解软件",
+        "关闭系统更新",
+        "安装并及时更新杀毒软件",
+        "打开陌生邮件附件"
+      ]
+    },
+    {
+      "id": "computer_03_006",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "multi",
+      "stem": "下列属于社会工程学攻击的有哪些？",
+      "answer": "ABC",
+      "explain": "社会工程学利用人的信任与疏忽；暴力破解属于技术性攻击。",
+      "options": [
+        "钓鱼邮件",
+        "假冒客服",
+        "尾随进入门禁",
+        "暴力破解密码"
+      ]
+    },
+    {
+      "id": "computer_03_007",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "multi",
+      "stem": "良好的密码策略包括哪些？",
+      "answer": "ABC",
+      "explain": "长度与复杂度能提高破解成本；常见单词容易被字典攻击命中。",
+      "options": [
+        "长度足够",
+        "混合大小写字母、数字和符号",
+        "定期更换",
+        "使用常见单词"
+      ]
+    },
+    {
+      "id": "computer_03_008",
+      "subject": "computer",
+      "chapter": "s03",
+      "type": "multi",
+      "stem": "防火墙可以实现哪些功能？",
+      "answer": "ABC",
+      "explain": "防火墙按规则控制网络访问并记录日志；病毒查杀由杀毒软件完成。",
+      "options": [
+        "过滤进出网络的数据包",
+        "记录访问日志",
+        "阻止未授权访问",
+        "查杀已知病毒"
+      ]
+    }
+  ]
+}

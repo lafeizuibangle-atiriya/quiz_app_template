@@ -1,0 +1,119 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "刷题宝典",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/practice/setup",
+      "style": {
+        "navigationBarTitleText": "练习设置",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/practice/quiz",
+      "style": {
+        "navigationBarTitleText": "答题",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/exam/start",
+      "style": {
+        "navigationBarTitleText": "模拟考试",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/exam/paper",
+      "style": {
+        "navigationBarTitleText": "考试中",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black",
+        "disableScroll": true
+      }
+    },
+    {
+      "path": "pages/exam/result",
+      "style": {
+        "navigationBarTitleText": "考试成绩",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/review/index",
+      "style": {
+        "navigationBarTitleText": "学习中心",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/review/list",
+      "style": {
+        "navigationBarTitleText": "题目列表",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/review/detail",
+      "style": {
+        "navigationBarTitleText": "题目详情",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    },
+    {
+      "path": "pages/stats/index",
+      "style": {
+        "navigationBarTitleText": "学习统计",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationBarTextStyle": "black"
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "刷题宝典",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f2f4f8"
+  },
+  "tabBar": {
+    "color": "#8b93a7",
+    "selectedColor": "#0a59f7",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "刷题",
+        "iconPath": "static/tabbar/quiz.png",
+        "selectedIconPath": "static/tabbar/quiz_on.png"
+      },
+      {
+        "pagePath": "pages/review/index",
+        "text": "学习中心",
+        "iconPath": "static/tabbar/study.png",
+        "selectedIconPath": "static/tabbar/study_on.png"
+      },
+      {
+        "pagePath": "pages/stats/index",
+        "text": "统计",
+        "iconPath": "static/tabbar/stats.png",
+        "selectedIconPath": "static/tabbar/stats_on.png"
+      }
+    ]
+  }
+}

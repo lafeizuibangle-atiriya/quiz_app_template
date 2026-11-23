@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+unpackage/
+.hbuilderx/
+
+# 打包与签名（私钥不进仓库）
+*.apk
+*.aab
+*.keystore
+*.jks
+*.p12
+*.mobileprovision
+
+# 日志与本地截图
+*.log
+_shot_*.png
+
+# 编辑器与系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
